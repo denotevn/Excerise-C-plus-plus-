@@ -50,7 +50,7 @@ int main() {
     std::cout << "s1 after replace: " << s1 << std::endl;
 
     // substr
-    std::cout << "substr: " << s1.substr(5, 7) << std::endl;
+    std::cout << "substr: " << s1.substr(5, 7) << std::endl; // dau tien la vi tri sau la so kys tu can lay ra sau vi tri do
 
     // find
     size_t pos = s1.find("s");

@@ -53,7 +53,7 @@ int main()
     }
 
     FILE *fw = fopen(file_result,"wb");
-    static Item buf1;
+
 
     while (fgets(buf,maxString,fr))
     {
@@ -86,7 +86,7 @@ int main()
     FILE *fr1 = fopen(file_result, "rb");
     static Item buf2;
     size_t rc;
-    while ((rc = fread(&buf2, sizeof(Item), 1, fr1))) // neu cho 2 dau bang se khong doc duoc file nay
+    while ((rc = fread(&buf2, sizeof(Item), 1, fr1))) // neu cho 2 dau bang se khong doc duoc file naycd 
     {
         printf("sku: %d, name: %s, desc: %s\n", buf2.sku, buf2.name, buf2.desc);
     }

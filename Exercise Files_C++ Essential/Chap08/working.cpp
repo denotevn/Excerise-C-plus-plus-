@@ -12,6 +12,7 @@ constexpr int maxString = 512;
 constexpr size_t name_size = 32;
 constexpr size_t desc_size = 128;
 constexpr const char * filename = "items.txt";
+constexpr const char * result = "result.txt";
 
 constexpr char tab_char = '\t';
 constexpr size_t max_split = 15;
@@ -55,6 +56,9 @@ int main()
         return 1;
     }
 
+    FILE *fw = fopen(result,"wb");
+    static char buf1[maxString];
+
     while (fgets(buf,maxString,fr))
     {
         size_t len = strnlen(buf,maxString);
@@ -76,15 +80,18 @@ int main()
         current_item.sku = atoi(buf);
         strncpy(current_item.name, buf + split3[1] + 1, name_size - 1);
         strncpy(current_item.desc, buf + split3[2] + 1, desc_size - 1);
+        fwrite(& current_item, sizeof(Item), 1, fw);
         printf("sku: %d, name: %s, desc: %s\n", current_item.sku, current_item.name, current_item.desc);
-
-
     }
-    
 
+    // Read file binary
+    FILE *fr1 = fopen(result,"rb");
+    static Item buf2;
+    size_t rc;
 
-    
-    
+    while(rc = fread(&buf2,sizeof(Item),1,fr1)){
+        printf("sku: %d, name: %s, desc: %s\n", buf2.sku, buf2.name, buf2.desc);
+    }
 
     return 0;
 }
