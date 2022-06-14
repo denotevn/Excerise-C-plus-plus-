@@ -46,11 +46,11 @@ int main() {
     std::cout << std::endl;
 
     // replace
-    s1.replace(5, 2, "ain't");
+    s1.replace(5, 2, "ain't"); 
     std::cout << "s1 after replace: " << s1 << std::endl;
 
     // substr
-    std::cout << "substr: " << s1.substr(5, 5) << std::endl;
+    std::cout << "substr: " << s1.substr(5, 7) << std::endl;
 
     // find
     size_t pos = s1.find("s");

@@ -45,12 +45,13 @@ int main() {
     std::cout << s2 << std::endl;
     std::cout << s3 << std::endl;
     
-    std::cout << std::setw(64) << std::right << s1 << std::endl;
-    std::cout << std::setw(64) << std::right << s2 << std::endl;
-    std::cout << std::setw(64) << std::right << s3 << std::endl;
+    std::cout << "Su dung setw va std::left ang std:: rigth" << std::endl;
+    std::cout << std::setw(32) << std::right << s1 << std::endl;
+    std::cout << std::setw(32) << std::right << s2 << std::endl;
+    std::cout << std::setw(32) << std::right << s3 << std::endl;
     
-    std::cout << std::setfill('-') << std::setw(64) << std::right << s1 << std::endl;
-    std::cout << std::setfill(' ') << std::setw(64) << std::right << s1 << std::endl;
+    std::cout << std::setfill('-') << std::setw(32) << std::right << s1 << std::endl;
+    std::cout << std::setfill(' ') << std::setw(32) << std::left << s1 << std::endl;
     std::cout << std::left << s1 << std::endl;
     
     return 0;
