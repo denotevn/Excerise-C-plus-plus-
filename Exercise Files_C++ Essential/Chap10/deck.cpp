@@ -107,9 +107,6 @@ uint16 Deck::remaining() const {
     return _remaining_count;
 }
 
-const Card * Deck::deck() const {
-    return _deck;
-}
 
 // MARK:: - non-member functions
 

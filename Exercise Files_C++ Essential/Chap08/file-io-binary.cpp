@@ -22,6 +22,7 @@ int main()
     FILE *fw = fopen(file_path,"wb");
 
     static s1 buf1;
+    
      for( int i = 0; i < 5; i++ ) {
         buf1.num = i;
         buf1.len = (uint8_t) strlen(str);
