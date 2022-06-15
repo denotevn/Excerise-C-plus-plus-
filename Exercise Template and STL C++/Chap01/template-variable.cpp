@@ -4,7 +4,7 @@
 using namespace std;
 
 template<typename T>
-T pi = T(3.1415926535897932385L);
+constexpr T pi = T(3.1415926535897932385L);
 
 template<typename T> 
 T area_of_cicrle(const T & r){
