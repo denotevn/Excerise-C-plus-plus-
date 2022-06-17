@@ -12,6 +12,10 @@ void display_v(vector<T> &v){
     cout << endl;
 }
 
+size_t strsz(string &s){
+    return s.size();
+}
+
 int main(){
     vector<string> v1 = {"one","two","three", "four","five"};
     display_v<string>(v1);
@@ -22,10 +26,14 @@ int main(){
         return s.size();
     });
     display_v<size_t>(v2);
+    
+    cout << "su dung ham strsz khai bao ben ngoai: " << endl;
+    vector<size_t> v5(v1.size());
+    transform(v1.begin(), v1.end(), v5. begin(),strsz);
+    display_v(v5);
 
     cout << "Noi them chuoi vao: "<<  endl;
     vector<string> v3(v1.size());
-    
     static int count  = 0; // static se thay doi lien tuc trong qua trinh bien dich
     transform(v1.begin(), v1.end(), v3.begin(), [](string &s) -> string{
         string s1;
