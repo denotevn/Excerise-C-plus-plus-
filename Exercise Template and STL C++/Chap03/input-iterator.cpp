@@ -1,5 +1,3 @@
-// input-iterator.cpp by Bill Weinman <http://bw.org/>
-// 2018-09-18 for CppSTL
 #include <iostream>
 #include <iterator>
 using namespace std;

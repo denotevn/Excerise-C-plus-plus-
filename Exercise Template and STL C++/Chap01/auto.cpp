@@ -5,6 +5,13 @@
 #include <string>
 using namespace std;
 
+// du sung auto cho function template
+template <typename lT, typename rT>
+auto tf(const lT & lhs, const rT &rhs){
+    return rhs + lhs;
+}
+
+
 int main() {
     int i = 47;
     const char * cstr = "this is a c-string";
@@ -18,6 +25,21 @@ int main() {
     cout << "type of sclass is " << typeid(sclass).name() << endl;
     cout << "type of x is " << typeid(x).name() << endl;
     cout << "type of y is " << typeid(y).name() << endl;
+
+    for(auto it = sclass.begin(); it != sclass.end(); ++it){
+        cout << *it << " ";
+    }
+    cout << endl;
+
+    // duyet theo vung chua
+    cout << "duyet theo vung chua: " <<endl;
+    for( auto c : sclass){
+        cout << c << ' ';
+    }
+    cout << endl;
     
+    auto z = tf<string, const char *> (sclass, cstr);
+    cout << "Template with auto: " << z << endl;
+    cout << "type of z is: "<< typeid(z).name() << endl;
     return 0;
 }

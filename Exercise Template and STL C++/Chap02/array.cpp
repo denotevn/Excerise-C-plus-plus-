@@ -14,6 +14,7 @@ void printa(array<T, N> & a) {
 
 // print a simple message
 void message(const char * s) { cout << s << endl; }
+
 template<typename T>
 void message(const char * s, const T & v) { cout << s << ": " << v << endl; }
 
