@@ -2,7 +2,11 @@
 
 // Tells Catch to provide a main()
 #define CATCH_CONFIG_MAIN
+<<<<<<< HEAD
+#include <catch2/catch_all.hpp>
+=======
 #include "catch.hpp"
+>>>>>>> 333aea449a577c75a6e55b8520bd0a9a22f73205
 
 // a pure function without side effects
 int fibonacci(int n) {
