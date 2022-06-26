@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+</head>
+<body>
+  <section class="section">
+    <div class="content">
+      <h1 class="title">Contact</h1>
+          {{#contact}}
+          <div>
+            <p>{{firstName}} {{lastName}}</p>
+            <p>{{email}}</p>
+            <p>{{phone}}</p>
+            <img src="{{photo}}" />
+          </div>
+          {{/contact}}
+    </div>
+  </section>
+</body>
+</html>
