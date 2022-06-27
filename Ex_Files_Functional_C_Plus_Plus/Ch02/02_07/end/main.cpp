@@ -9,6 +9,15 @@ auto addCurry = [](auto a) {
   };
 };
 
+/*
+auto addCurry = [](auto a){
+  return [a](auto b){
+    return [a,b](auto c){
+      return a + b + c;
+    }
+  }
+}
+*/
 
 int main() {
   auto added1 = addCurry(1);
