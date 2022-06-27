@@ -19,7 +19,7 @@ T cube(const T& value){
 template<int toCube>
 struct Cube{
     enum{
-        value = toCube * toCube * toCube
+        result = toCube * toCube * toCube
     };
 };
 
@@ -40,7 +40,7 @@ struct Divisible<u,0>{
 int main(){
 
     cout << "8 cube = " << cube(8) <<  endl;
-    cout << "5 cube = " << Cube<5>::value << endl;
+    cout << "5 cube = " << Cube<5>::result << endl;
 //============================================================================================
     cout<<Divisible<2,3>::value<<endl;  //Trả về 0; vì không chia hết
     cout<<Divisible<2,2>::value<<endl;  //Trả về 1; vì chia hết
