@@ -36,6 +36,8 @@ int main() {
     auto num_over21 = count_if(ages.begin(), ages.end(),
     std::bind(&greater_than, std::placeholders::_1, 21)); // placeholders là không gian tên 
     // định hướng vị trí của một giá trị trong một hàm. Chúng được đại diện bởi _1, _2, _3 … 
+    // _1 is for first parameter and assigned
+
     cout << "New Number of 21: " << num_over21 <<  endl;
 
 //'--------------------------------------------------------------'
