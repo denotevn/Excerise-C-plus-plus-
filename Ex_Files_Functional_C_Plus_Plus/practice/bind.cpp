@@ -45,7 +45,7 @@ int main() {
     // mot cach dung count_if
     vector<int> list {1,3,2,4,3,56,24,33,21,-2};
     auto count_div3 = std::count_if(list.begin(), list.end(),
-        [](int &value){return value % 3 == 0;});
+        [](int &value){return value % 3 == 0;}); // tinh so phan tu ma chia het cho 3 torng list
 
     vector<int> collection_div3;
     std::copy_if(list.begin(), list.end(), back_inserter(collection_div3),

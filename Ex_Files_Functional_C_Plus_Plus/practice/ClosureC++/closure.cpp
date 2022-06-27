@@ -4,7 +4,7 @@ using namespace std;
 
 auto incremeter = [](){
     auto increment = 0;
-    return [increment]() mutable {
+    return [increment]() mutable { //  2 lambda function bang nhau
         return increment++;
     };
 };

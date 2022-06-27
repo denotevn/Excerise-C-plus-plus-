@@ -61,7 +61,11 @@ int main(){
     // nen la dung std::bin()
     auto lambda_bind = std::bind(lambda3, _1, 5); // _1 co nghia la so duoc gan sau do se tru di 5
     // Muon ro hon hay doc placeholders
-    
+    /*
+        Rõ ràng là nếu pass lambda3 vào function acceptFunctionObject thì sẽ compile fail ngay thì nó chỉ accept function object có 1 argument. Nhưng bằng cách sử std::bind, 
+        ta set luôn argument thứ 2 (là y) là 5, và chỉ còn 1 argument (là x) 
+        cần phải passing từ ngoài vào, ta gọi là placeholder. 
+    */
     //acceptFunctionObject(lambda3, 3);  Compile error
     acceptFunctionObject(lambda_bind, 3); //  3 - 5 = -2
 
