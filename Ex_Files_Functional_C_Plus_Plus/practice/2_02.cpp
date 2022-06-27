@@ -22,6 +22,7 @@
 using namespace std;
 
 int main(){
+
     auto render = [](auto collection){
         for(const auto &val: collection){
             cout << val << " ";
@@ -37,6 +38,7 @@ int main(){
         // std :: back_inserter xây dựng một trình lặp chèn ngược để chèn các 
         //phần tử mới vào cuối vùng chứa mà nó được áp dụng. Nó được định nghĩa bên trong tệp tiêu đề .
     );
+    cout <<"Transforms" << endl;
     render(outCollection);
 
     // example using back_interter
@@ -60,6 +62,18 @@ int main(){
     cout << "copy_if" << endl;
     render(filteredCollection);
 
+    vector<int> filteredCollection1;
+    copy_if(outCollection.begin(), outCollection.end(),
+        back_inserter(filteredCollection1), [](int &value){return value % 2 == 0;}
+    );
+    cout << "Copy if so chan" << endl;
+    render(filteredCollection1);
+
+    cout << "Accumulate" << endl; // nhu kieu tinh tong cua mot mang 
+    int result = accumulate(filteredCollection.begin(), filteredCollection.end(),
+        0, [](int total, int current){ return total + current; }
+    );
+    cout << "result: " << result << endl;
 
     // v2 now contains 4 5 6 1 2 3
     return 0;
