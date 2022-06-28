@@ -12,7 +12,7 @@ void acceptFunctionObject(std::function<void (int&)> f, int y) {
 int main(){
     std::vector<int> data_list {1,2,5,6,7,8,9,4};
 
-    auto visualizer = [](int &data){
+    auto visualizer = [](const int &data){
         std::cout << data << " ";
     };
 
@@ -52,7 +52,7 @@ int main(){
 
 
     
-    auto lambda3 = [](int& x, int& y) {
+    auto lambda3 = [](const int& x,const int& y) {
         std::cout << "Subtract x to y : " << x-y << std::endl;
     };
 
