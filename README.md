@@ -1,6 +1,6 @@
-#Note Becom to C++ Developer on LinkedIn
+##Note Becom to C++ Developer on LinkedIn
 
-###***How to install boost for C++ libraies in Ubuntu*** 
+###How to install boost for C++ libraies in Ubuntu
 > **Install libboost-all-dev Using apt-get**: 
 > sudo apt-get update
 > sudo apt-get -y install libboost-all-dev
