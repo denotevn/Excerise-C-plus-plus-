@@ -1,4 +1,23 @@
-## Topics 1 : transform, copy_if, acumulate in C++
+###***How to install boost for C++ libraies in Ubuntu*** 
+> **Install libboost-all-dev Using apt-get**: 
+> sudo apt-get update
+> sudo apt-get -y install libboost-all-dev
+
+### RAII in C++ programming (Resource Acquisition Is Initialization)
+> Very complex memory management problem in C++. If you want to minimize the impact of memory management on the programming process, then RAII is the choice for you.
+>
+>
+> Performs a ***binding between an object initialized*** on the heap and an ***object stored on the stack***. Thereby, when the object on the stack is destroyed, ie exits the scope of the object, the memory on the heap will also be destroyed.
+
+###### You can see an example [example 1](https://github.com/denotevn/Practice-with-C-plus-plus/blob/master/Ex_Files_C_Plus_Plus_Dev/practice/RAII.cpp) , [example 2](https://github.com/denotevn/Practice-with-C-plus-plus/blob/master/Ex_Files_C_Plus_Plus_Dev/practice/challenge05.cpp)
+
+
+
+
+#Some topics for C++
+
+### Topics 1 : transform, copy_if, acumulate in C++
+
 * ***1. Transform***
 > Applies an operation sequentially to the elements of one (1) or two (2) ranges and stores the result in the range that begins at result.
 ***For example:***
@@ -46,3 +65,8 @@ int main()
 > In short, the function is the sum of the elements
 > More examples at this link ***[Examples](https://github.com/denotevn/Practice-with-C-plus-plus/tree/master/Ex_Files_Functional_C_Plus_Plus/Ch02)***
     
+### Topics 2: Template metaprogramming with C++
+
+***Difference between template and template metaprogramming***
+> normal templates run ***at runtime*** , template metaprogramming runs at ***compile time***
+> See example with factorial calculation function  ***[here](https://github.com/denotevn/Practice-with-C-plus-plus/blob/master/Ex_Files_Functional_C_Plus_Plus/practice/metaProgrammingC%2B%2B/factorial.cpp)***
