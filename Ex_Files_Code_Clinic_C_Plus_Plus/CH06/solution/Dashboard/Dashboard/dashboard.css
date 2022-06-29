@@ -1,0 +1,75 @@
+body, html {
+  font-family:verdana,helvetica,tahoma,sans-serif;
+  font-size: xx-Large; 
+}
+
+.title {
+	font-size: xx-Large;
+	font-weight: bold;
+	
+}
+
+.process {
+    font-size: xx-Large;
+}
+
+.red-box {
+    background-color: #e81216;
+    min-height: 30px;
+    text-align: center;
+    padding: 3px;
+	font-size: xx-Large;
+	color: white;
+}
+
+.blue-box {
+    background-color: #1456d1;
+    min-height: 30px;
+    text-align: center;
+    padding: 3px;
+	font-size: xx-Large;
+	color: white;
+}
+
+.green-box {
+    background-color: #09c150;
+    min-height: 30px;
+    text-align: center;
+    padding: 3px;
+	font-size: xx-Large;
+	color: white;
+}
+
+
+.Wt-progressbar
+{
+   font: normal 1em "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+   background: #e0e0e0;
+   border: 1px solid #555;
+   position: relative;
+   overflow: hidden;
+   color: white;
+   font-weight: bold;
+   width: 200px;
+   height: 1em;
+   line-height: 1em;
+ }
+
+
+.Wt-progressbar .Wt-pgb-bar
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   height: 100%;
+   background: #6880A0 url(title-gradient.png) repeat-x scroll 0 -20px;
+}
+
+.Wt-progressbar .Wt-pgb-label
+{
+   font-size: 0.8em;
+   position: absolute;
+   left: 0px;
+   width: 100%;
+   text-align: center;
+}
