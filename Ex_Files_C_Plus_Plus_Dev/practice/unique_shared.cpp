@@ -23,7 +23,7 @@ int main(){
     // Khi hàm main() kết thúc, 
     // biến ptr sẽ bị huỷ và đối tượng của class Test thuộc quyền sở hữu của ptr cũng sẽ được huỷ một cách tự động
     // chuyển quyền sở hữu dynamic object từ một std::unique_ptr sang một std::unique_ptr khác  dung std::move
-    std::unique_ptr<Test> ptr1 = std::move(ptr);
+    // std::unique_ptr<Test> ptr1 = std::move(ptr);
     ptr->setX(10);
     std::cout << ptr->getX() << std::endl;
 
