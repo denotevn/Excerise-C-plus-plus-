@@ -29,7 +29,7 @@ void create_dir() {
     }
   }
   catch (fs::filesystem_error &e) {
-    std::__1::cerr << e.what() << '\n';
+    std::cerr << e.what() << '\n';
   }
 }
 
