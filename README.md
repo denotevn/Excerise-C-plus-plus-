@@ -66,6 +66,7 @@ int main()
     return 0;
 }
 ~~~
+
 > The output is the numbers in the original vector that satisfy the filter condition in copy_if. In this case , the output is {1,3,5,7,9}
 > More examples at this link ***[Examples](https://github.com/denotevn/Practice-with-C-plus-plus/tree/master/Ex_Files_Functional_C_Plus_Plus/Ch02)***
     
