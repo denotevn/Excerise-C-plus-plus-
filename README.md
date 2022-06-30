@@ -1,6 +1,6 @@
-##Note Becom to C++ Developer on LinkedIn
+# Note Becom to C++ Developer on LinkedIn
 
-###How to install boost for C++ libraies in Ubuntu
+### How to install boost for C++ libraies in Ubuntu
 > **Install libboost-all-dev Using apt-get**: 
 > sudo apt-get update
 > sudo apt-get -y install libboost-all-dev
@@ -11,19 +11,17 @@
 >
 >
 > Performs a ***binding between an object initialized*** on the heap and an ***object stored on the stack***. Thereby, when the object on the stack is destroyed, ie exits the scope of the object, the memory on the heap will also be destroyed.
-####2. Examples
+### 2. Examples
 ###### You can see an example [example 1](https://github.com/denotevn/Practice-with-C-plus-plus/blob/master/Ex_Files_C_Plus_Plus_Dev/practice/RAII.cpp) , [example 2](https://github.com/denotevn/Practice-with-C-plus-plus/blob/master/Ex_Files_C_Plus_Plus_Dev/practice/challenge05.cpp)
-####3. Learn about Smart Pointer
+#### 3. Learn about Smart Pointer
 > ***shared_ptr,unique_ptr ,weak_ptr, boost::scoped_ptr (if you install library Boost)***
 >
 >
-> Learn about smart pointers [here](https://viblo.asia/p/tim-hieu-smartpointer-trong-c-phan-1-4dbZND8Q5YM) and [more](https://viblo.asia/p/tim-hieu-smartpointer-trong-c-phan-2-Ljy5Vxb3Zra)
+> Learn about smart pointers [here](https://viblo.asia/p/tim-hieu-smartpointer-trong-c-phan-1-4dbZND8Q5YM) and [more](https://viblo.asia/p/tim-hieu-smartpointer-trong-c-phan-2-Ljy5Vxb3Zra).
+> 
 
 
-
-
-#Some topics for C++
-
+## Some topics for C++
 ### Topics 1 : transform, copy_if, acumulate in C++
 
 * ***1. Transform***
