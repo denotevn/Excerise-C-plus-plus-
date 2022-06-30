@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun 30 11:18:00 2022
+# Make data base, printed on Thu Jun 30 11:35:15 2022
 
 # Variables
 
@@ -43,7 +43,7 @@ GDMSESSION = ubuntu
 # environment
 XMODIFIERS = @im=ibus
 # makefile
-CURDIR := /home/tuandinh/c++
+CURDIR := /home/tuandinh/Desktop/c++
 # makefile
 SHELL = /bin/sh
 # environment
@@ -79,7 +79,7 @@ _ = /snap/code/99/usr/share/code/code
 # environment
 MANAGERPID = 4013
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-96ca220f-b191-46fc-b1c9-cc331dab5bd6.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-1b6c82af-1889-4b22-9b6f-3d1fcda605fc.sock
 # environment
 LC_NAME = ru_RU.UTF-8
 # environment
@@ -127,7 +127,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 6321
+GIO_LAUNCHED_DESKTOP_FILE_PID = 41346
 # automatic
 %F = $(notdir $%)
 # environment
@@ -141,7 +141,7 @@ VSCODE_PIPE_LOGGING = true
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-PWD = /home/tuandinh/c++
+PWD = /home/tuandinh/Desktop/c++
 # default
 .LOADED := 
 # environment
@@ -280,27 +280,17 @@ SNAP_REEXEC =
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
 WINDOWPATH = 2
- 
 # default
  
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
- 
 # environment
- 
 GJS_DEBUG_OUTPUT = stderr
- 
 # default
- 
 .RECIPEPREFIX := 
- 
 # environment
- 
 LC_ADDRESS = ru_RU.UTF-8
- 
 # environment
- 
 define FZF_DEFAULT_OPTS
- 
 
     --color fg:-1,bg:-1,hl:5,fg+:3,bg+:-1,hl+:5
     --color info:42,prompt:-1,spinner:42,pointer:51,marker:33
@@ -310,7 +300,7 @@ endef
 # environment
 LANG = C
 # environment
-VSCODE_PID = 6492
+VSCODE_PID = 41397
 # environment
 WORDCHARS = 
 # variable set hash-table stats:
@@ -322,9 +312,9 @@ WORDCHARS =
 
 # Directories
 
-# . (device 52, inode 14924): 18 files, no impossibilities.
+# . (device 52, inode 14924): 17 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -374,12 +364,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 363 B / avg = 13 B
-# current buf: size = 8162 B / used = 363 B / count = 26 / avg = 13 B
+# strcache buffers: 1 (0) / strings = 25 / storage = 348 B / avg = 13 B
+# current buf: size = 8162 B / used = 348 B / count = 25 / avg = 13 B
 
-# strcache performance: lookups = 29 / hit rate = 10%
+# strcache performance: lookups = 28 / hit rate = 10%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Thu Jun 30 11:18:00 2022
+# Load=25/8192=0%, Rehash=0, Collisions=1/28=4%
+# Finished Make data base on Thu Jun 30 11:35:15 2022
 
  
