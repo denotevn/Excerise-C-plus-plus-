@@ -11,7 +11,7 @@
 >
 >
 > Performs a ***binding between an object initialized*** on the heap and an ***object stored on the stack***. Thereby, when the object on the stack is destroyed, ie exits the scope of the object, the memory on the heap will also be destroyed.
-### 2. Examples
+#### 2. Examples
 ###### You can see an example [example 1](https://github.com/denotevn/Practice-with-C-plus-plus/blob/master/Ex_Files_C_Plus_Plus_Dev/practice/RAII.cpp) , [example 2](https://github.com/denotevn/Practice-with-C-plus-plus/blob/master/Ex_Files_C_Plus_Plus_Dev/practice/challenge05.cpp)
 #### 3. Learn about Smart Pointer
 > ***shared_ptr,unique_ptr ,weak_ptr, boost::scoped_ptr (if you install library Boost)***
@@ -22,7 +22,7 @@
 
 
 ## Some topics for C++
-### Topics 1 : transform, copy_if, acumulate in C++
+#### Topics 1 : transform, copy_if, acumulate in C++
 
 * ***1. Transform***
 > Applies an operation sequentially to the elements of one (1) or two (2) ranges and stores the result in the range that begins at result.
@@ -72,7 +72,7 @@ int main()
 > In short, the function is the sum of the elements
 > More examples at this link ***[Examples](https://github.com/denotevn/Practice-with-C-plus-plus/tree/master/Ex_Files_Functional_C_Plus_Plus/Ch02)***
     
-### Topics 2: Template metaprogramming with C++
+#### Topics 2: Template metaprogramming with C++
 
 ***Difference between template and template metaprogramming***
 > normal templates run ***at runtime*** , template metaprogramming runs at ***compile time***
