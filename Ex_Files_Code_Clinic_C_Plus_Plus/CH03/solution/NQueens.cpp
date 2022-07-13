@@ -5,7 +5,7 @@
 #include "NQueens.hpp"
 
 using namespace std;
-
+ 
 NQueens::NQueens(int nQueens)
 {
     nQueens_ = nQueens;
@@ -60,7 +60,7 @@ bool NQueens::isSafe(int row, int col)
     for (int i = 0; i < row; i++)
     {
         // Check this column
-        if (board_[i] == col) return false;
+        if (board_[i] == col) return false; // Neu board[i] == col nghia la theo hang doc no da co quan hau roi
         
         // Check upper-left diagonal direction
         if (board_[i] == col - (row - i)) return false;
@@ -92,6 +92,7 @@ void NQueens::printBoard()
         cout << "-";
     }
     cout << endl;
+
     for (row = 0; row < nQueens_; row++)
     {
         cout << "|";

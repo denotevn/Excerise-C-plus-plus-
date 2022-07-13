@@ -1,6 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/tuandinh/Desktop/c++'
-make: Leaving directory '/home/tuandinh/Desktop/c++'
+make: Entering directory '/home/tuandinh/Desktop/ALL C+++/c++'
+make: Leaving directory '/home/tuandinh/Desktop/ALL C+++/c++'
  
 make: *** No targets specified and no makefile found.  Stop.
 

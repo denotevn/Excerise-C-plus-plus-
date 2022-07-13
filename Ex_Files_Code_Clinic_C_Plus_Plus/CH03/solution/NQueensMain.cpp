@@ -15,6 +15,7 @@ int main(int argc, char* argv[])
 		return 1;
 	}
     
+	// Solve 4 queens or more
 	if (atoi(argv[1]) < 4)
 	{
 		cerr << "ERROR: Invalid board dimensions; first argument must be integer >= 4" << endl;
